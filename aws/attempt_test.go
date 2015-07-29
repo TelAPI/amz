@@ -10,7 +10,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/TelAPI/aws"
+	"github.com/TelAPI/amz/aws"
 )
 
 func (S) TestAttemptTiming(c *C) {

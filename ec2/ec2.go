@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/TelAPI/aws"
+	"github.com/TelAPI/amz/aws"
 )
 
 const (

@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/TelAPI/aws"
+	"github.com/TelAPI/amz/aws"
 )
 
 type MTurk struct {

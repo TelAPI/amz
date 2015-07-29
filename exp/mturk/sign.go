@@ -10,7 +10,7 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 
-	"github.com/TelAPI/aws"
+	"github.com/TelAPI/amz/aws"
 )
 
 var b64 = base64.StdEncoding

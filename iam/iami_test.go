@@ -10,7 +10,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/TelAPI/aws"
+	"github.com/TelAPI/amz/aws"
 	"gopkg.in/amz.v1/iam"
 	"gopkg.in/amz.v1/testutil"
 )

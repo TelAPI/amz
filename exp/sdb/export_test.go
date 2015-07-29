@@ -6,7 +6,7 @@
 package sdb
 
 import (
-	"github.com/TelAPI/aws"
+	"github.com/TelAPI/amz/aws"
 )
 
 func Sign(auth aws.Auth, method, path string, params map[string][]string, headers map[string][]string) {

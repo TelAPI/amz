@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/TelAPI/aws"
+	"github.com/TelAPI/amz/aws"
 )
 
 // ----------------------------------------------------------------------------
