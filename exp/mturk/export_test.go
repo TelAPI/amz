@@ -6,7 +6,7 @@
 package mturk
 
 import (
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 )
 
 func Sign(auth aws.Auth, service, method, timestamp string, params map[string]string) {

@@ -32,7 +32,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 )
 
 // The SNS type encapsulates operation with an SNS region.

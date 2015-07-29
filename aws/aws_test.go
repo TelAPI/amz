@@ -12,7 +12,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 )
 
 func Test(t *testing.T) {

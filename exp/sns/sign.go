@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 )
 
 var b64 = base64.StdEncoding

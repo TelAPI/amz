@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 )
 
 // The IAM type encapsulates operations operations with the IAM endpoint.

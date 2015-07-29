@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 )
 
 const debug = false

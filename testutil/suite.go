@@ -10,7 +10,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 )
 
 // Amazon must be used by all tested packages to determine whether to

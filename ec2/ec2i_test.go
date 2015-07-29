@@ -11,7 +11,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/TelAPI/amz"
+	"github.com/TelAPI/aws"
 	"gopkg.in/amz.v1/ec2"
 	"gopkg.in/amz.v1/testutil"
 )
