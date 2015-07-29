@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/TelAPI/amz"
 )
 
 // The IAM type encapsulates operations operations with the IAM endpoint.

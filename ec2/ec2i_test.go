@@ -11,7 +11,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/TelAPI/amz"
 	"gopkg.in/amz.v1/ec2"
 	"gopkg.in/amz.v1/testutil"
 )
@@ -194,7 +194,7 @@ func (s *ClientTests) TestRegions(c *C) {
 			errs <- err
 		}(region)
 	}
-	for _ = range allRegions {
+	for range allRegions {
 		err := <-errs
 		if err != nil {
 			ec2_err, ok := err.(*ec2.Error)

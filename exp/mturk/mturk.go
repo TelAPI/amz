@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/TelAPI/amz"
 )
 
 type MTurk struct {

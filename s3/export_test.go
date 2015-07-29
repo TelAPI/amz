@@ -6,7 +6,7 @@
 package s3
 
 import (
-	"gopkg.in/amz.v1/aws"
+	"github.com/TelAPI/amz"
 )
 
 var originalStrategy = attempts

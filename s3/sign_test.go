@@ -8,7 +8,7 @@ package s3_test
 import (
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/TelAPI/amz"
 	"gopkg.in/amz.v1/s3"
 )
 

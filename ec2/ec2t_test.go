@@ -14,7 +14,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/TelAPI/amz"
 	"gopkg.in/amz.v1/ec2"
 	"gopkg.in/amz.v1/ec2/ec2test"
 	"gopkg.in/amz.v1/testutil"
@@ -34,8 +34,8 @@ func (s *LocalServer) SetUp(c *C) {
 
 	// Add default attributes.
 	srv.SetInitialAttributes(map[string][]string{
-		"supported-platforms": []string{"VPC", "EC2"},
-		"default-vpc":         []string{"vpc-xxxxxxx"},
+		"supported-platforms": {"VPC", "EC2"},
+		"default-vpc":         {"vpc-xxxxxxx"},
 	})
 
 	s.srv = srv
@@ -414,7 +414,7 @@ func terminateInstances(c *C, e *ec2.EC2, ids []string) {
 			}
 		}
 		ids = []string{}
-		for id, _ := range idsLeft {
+		for id := range idsLeft {
 			ids = append(ids, id)
 		}
 		if len(ids) == 0 {
